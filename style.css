@@ -310,3 +310,12 @@ a {
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
+h1{
+  color: grey;
+}
+#texto-maior{
+  margin: auto;
+  margin-top: 15px;
+  align: right;
+  color: red;
+}
