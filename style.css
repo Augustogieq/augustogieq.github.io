@@ -1,21 +1,14 @@
-body {
-  padding-top: 5rem;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+li {
+  display: inline;
+  float: left;
 }
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+a {
+  display: block;
+  padding: 15px;
+  background-color: #dddddd;
 }
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }}
-  
