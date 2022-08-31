@@ -311,11 +311,13 @@ a {
   transition: color 0.3s ease;
 }
 h1{
+  font-size: 100px;
   font-family: "Fonte Din Pro";
   margin-top: 40px;
   margin-left: 30px;
   margin-bottom: 30px;
   color: grey;
+  text-align: center;
 }
 #texto-maior{
   margin: auto;
