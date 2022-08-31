@@ -322,13 +322,13 @@ h1{
 #texto-maior{
   margin: auto;
   margin-top: 15px;
-  text-align: right;
+  text-align: center;
   color: red;
 }
 #texto-central{
+  font-size: 30px;
   font-family: "Fonte Din Pro";
   text-align: center;
-  color: darkgoldenrod;
 
 }
 footer{
@@ -338,3 +338,39 @@ footer{
   width: 100%;
   height: 30px;
 }
+#carrosel-imagens{
+  text-align: center;
+  border-radius: 50%;
+  border-bottom: 5px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+/* Aqui Comeca tutorial da profe */
+
+p{
+  background-color: red;
+  }
+  .vermelho{
+    font-size:15px;
+    
+    font-size:15px;
+    animation-name: trocar;
+    animation-duration: 10s;
+
+    @keyframes trocar{
+    from {background-color: red;
+    color: black; }
+    to {
+    background-color: blue;
+    color: white; }
+    } 
+  }
+  button {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: lightblue;
+  }

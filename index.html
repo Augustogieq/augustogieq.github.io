@@ -6,17 +6,26 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <title>Mundo do Guarda Chuva</title>
+    <title>Playground</title>
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
+
+  <script>
+    var button = document.getElementById("botaojs"),
+  contdor = 0;
+button.onclick = function() {
+  contdor += 1;
+  button.innerHTML = "Clique: " + contdor;
+};
+  </script>
     <!-- Inicia a NavBar -->
     <nav id="navbar" class="">
         <div class="nav-wrapper">
     <ul id="menu">
     <li><a href="index.html">Inicial</a></li>
     <li><a href="sobre.html">Sobre</a></li>
-    <li><a href="etc.html">Etc</a></li>
+    <li><a href="cronometro.html">Cronometro</a></li>
     <li><a href="contato.html">Contato</a></li>
     </ul>
     </div>
@@ -37,15 +46,29 @@
       <br>
       <br><br>
 
-      <h1> Mundo do Guarda Chuva</h1>
+      <h1>Playground Dev</h1>
       <h2>Augusto Giequelin Neto</h2>
       <div id="texto-maior">
         Aqui vai o texto Maior
       </div>
         <div id="texto-central">
           Tudo aqui é o Texto texto central, projeto desenvolvido para a materia de programação II na UFFS <p></p>
-          T
+          Teste
         </div>
+        <div id="carrosel-imagens"> 
+<img src="/img/guardachuva-pagina-inicial.jpeg">
+        </div>
+        <button id="botaojs">Contador de Cliques: 0</button>
+        <script src="javascript/main.js"></script>
+        <script>
+          var button = document.getElementById("botaojs"),
+  contdor = 0;
+button.onclick = function() {
+  contdor += 1;
+  button.innerHTML = "Cliques dados " + contdor;
+};
+
+        </script>
 </body>
 <footer>
 Copyright: Giequelin, Augusto 2022 - cs
