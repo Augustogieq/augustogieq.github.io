@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../newindex.html/css/main.css">
+    
+</head>
+<body>
+    <b><h1 id="titulo-principal">PLAYGROUND DE JS</h1></b>
+
+    <div id="div1">
+   <div id="clicador">
+    <h1>Contador de Cliques</h1>
+    <button id="clique">Clique</button>
+    <button id="zerar">Zerar</button>
+</div>
+</div>
+
+<div id="div2" class="cronometro">
+    <h1>Cronômetro</h1>
+    <h2>Cronômetro Simples em Javascript</h2>
+    <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+    <button id="button-start">Comecar</button>
+    <button id="button-stop">Parar</button>
+    <button id="button-reset">Zerar</button>
+    </div>
+<div id="muda-fundo">
+    <h1>Escolha Uma cor</h1>
+    <h2>Escolha uma Cor Para Substituir a da Página</h2>
+        <input id="seletor" type="color">
+    <button type="button" onclick="trocaCor()">Muda a Cor de Fundo</button>
+    <button type="button" onclick="voltaCor()">Volta Para a Cor Normal</button>
+</div>
+
+<div id="brinca">
+ <a id="muda"> Texto de Transição CSS</a>
+</div>
+
+
+<div id="div3">
+    <h1>Alterador de Texto</h1>
+    <h2>Clique no Botão e Insira suas Informações</h2>
+    <button id="nome">Nome</button>
+<button id="cidade">Cidade</button>
+<button id="reset" onclick=reset() >Reset</button>
+<div id="txt-mostra">
+Seu nome é <span id="saidaNome">____</span>. E a sua cidade é <span id="saidaCidade">____</span>.
+</div>
+<script>
+document.getElementById("nome").onclick = function(){
+	var nome = prompt("Digite seu Nome");
+  document.getElementById("saidaNome").innerText = nome;
+}
+
+document.getElementById("cidade").onclick = function(){
+	var cidade = prompt("Digite sua Cidade");
+  document.getElementById("saidaCidade").innerText = cidade;
+}
+function reset(){
+var reset = "____";
+document.getElementById("saidaCidade").innerText = reset;
+document.getElementById("saidaNome").innerText = reset;
+};
+</script>
+</div>
+</body>
+<script type="text/javascript" src="../javascript/main.js"></script>
+</html>

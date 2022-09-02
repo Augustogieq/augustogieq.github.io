@@ -1,0 +1,132 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("/fonts/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: bold;
+    src:url("/fonts/Raleway-Bold.ttf");
+}
+html {
+    scroll-behavior: smooth;
+}
+.cronometro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 15px;
+}
+#clicador{
+text-align: center;
+}
+#muda-fundo{
+    text-align: center;
+    border: solid 2px blue;
+}
+#titulo-principal{
+    margin: 12px;
+    color:#F24405;
+    border-top: auto;
+    border: solid  2px grey;
+    border-radius: 15px;
+    font-size: 5em;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    font-family:'bold';
+   text-align: center;
+
+}
+  h1{
+    font-family:'myFirstFont';
+    font-weight: 100;
+    font-size: 3em;
+  }
+  h2, h3 {
+    font-family:'myFirstFont';
+    font-weight: 100;
+    font-size: 2.6em;
+  }
+  
+  #seconds, #tens {
+    font-size: 2em;
+  }
+  
+  button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background: #F24405;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+  }
+  button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: blue;
+    border: solid 1px #fff;
+    color: #ffa600;
+  }
+  #div1{
+    padding-top: 1px;
+    margin-top: 0px;
+    background-color: #060C61;
+    color: white;
+  }
+  #div2{
+    background-color: #2c3d73;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 30px;
+  }
+#muda-fundo{
+    background-color: #060C61;
+        flex-wrap: wrap;
+        color: white;
+    flex-wrap: wrap;
+  }
+  #muda{
+padding-top: 30px;
+margin: 0px;
+padding-top: 30px;
+    text-align: right;
+    font-size: 100px;
+    font:lighter normal 4em 'Georgia';
+    color:blue;
+    transition:color 4.5s ease-in;
+  }
+#brinca{
+    text-align: center;
+    margin: 40px;
+}
+#div3{
+    color: white;
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #2c3d73;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+}
+
+p{
+    font-family:'Raleway-VariableFont_wght.ttf';
+    text-align: center;
+}
+#txt-mostra{
+    margin-top: 5px;
+    padding-top: 5px;
+    font-size: 4em;
+}
